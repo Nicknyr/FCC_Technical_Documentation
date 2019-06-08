@@ -1,0 +1,35 @@
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 1.6em;
+  padding-top: .5em;
+  padding-bottom: .5em; }
+
+main {
+  margin-top: 2.8em; }
+
+.main-section {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em; }
+
+#navbar {
+  background-color: #EFEFEF;
+  padding-top: 1.5em; }
+
+.nav-link {
+  border-bottom: 1px solid darkgrey; }
+
+/*# sourceMappingURL=styles.css.map */
