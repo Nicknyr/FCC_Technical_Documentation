@@ -26,6 +26,14 @@ h2 {
   padding-bottom: .5em;
 }
 
+a {
+	color: #4d4e53;
+
+	&:hover {
+		color: black;
+	}
+}
+
 
 main {
   margin-top: 2.8em;
@@ -39,10 +47,10 @@ main {
 }
 
 #navbar {
-  background-color: #EFEFEF;
+  //background-color: #EFEFEF;
   padding-top: 1.5em;
 }
 
 .nav-link {
-  border-bottom: 1px solid darkgrey;
+  border-bottom: 1px solid #4d4e53;
 }
